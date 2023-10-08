@@ -23,7 +23,7 @@ sklearn.ensemble.RandomForestClassifier(n_estimators=10, criterion='gini', max_d
 超参数：n_estimator, max_depth, min_samples_split, min_samples_leaf
 """
 
-# 使用随机森林预测titanic乘客生存情况
+# Predict survival in titanic
 # 1. 获取数据
 import pandas as pd
 titanic = pd.read_csv("titanic.csv")
